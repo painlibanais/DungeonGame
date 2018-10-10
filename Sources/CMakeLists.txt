@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.9)
+project(DungeonGame)
+
+set(CMAKE_CXX_STANDARD 11)
+
+add_executable(DungeonGame main.cpp Object/AbstractElement.cpp Object/AbstractElement.h Personnage.cpp Personnage.h Salle.cpp Salle.h Point.cpp Point.h Object/PlayableElement.cpp Object/PlayableElement.h Object/NotPlayableElement.cpp Object/NotPlayableElement.h Object/WallH.cpp Object/WallH.h Object/WallV.cpp Object/WallV.h Object/Plat.cpp Object/Plat.h Object/Pass.cpp Object/Pass.h Stage.cpp Stage.h Object/Empty.cpp Object/Empty.h Map.cpp Map.h Heros.cpp Heros.h Controleur.cpp Controleur.h Monstre.cpp Monstre.h IntelligentMonstre.cpp IntelligentMonstre.h TeleportMonstre.cpp TeleportMonstre.h getRandom.cpp getRandom.h Object/Character.cpp Object/Character.h FactoryMonstre.cpp FactoryMonstre.h BasicMonstre.cpp BasicMonstre.h Object/DownStairs.cpp Object/DownStairs.h Object/UpStairs.cpp Object/UpStairs.h UpHerosObserver.cpp UpHerosObserver.h Observer.cpp Observer.h DownHerosObserver.cpp DownHerosObserver.h LeftHerosObserver.cpp LeftHerosObserver.h RightHerosObserver.cpp RightHerosObserver.h VectorTemplate.h Distance.cpp Distance.h Item.cpp Item.h Object/Reward.cpp Object/Reward.h Potion.cpp Potion.h Arme.cpp Arme.h Armure.cpp Armure.h FactoryItem.cpp FactoryItem.h)
